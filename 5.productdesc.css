@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    height: 1000px;
+} */
+/* header */
+header{
+    position: sticky;
+    top: 0px;
+}
+.container{
+    width: 100vw;
+    background-color: #B48855;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 5px 0.5px grey;
+}
+.logo{
+    margin-left: 20px;
+    height: 70px;
+    width: 20%; 
+    /* background-color: red; */
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.navi{
+    height: 70px;
+    /* width: 100vw; */
+ } 
+.navbar ul{
+    display: flex;
+      
+}
+.navbar li{
+    list-style-type: none;
+    margin-right: 25px;
+  
+
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    padding: 10px;
+    font-size:1.5rem ;
+}
+.navbar li a:hover{
+    text-decoration:underline ;
+}
+
+
+
+
+/* SECTION  */
+
+
+.section{
+    margin-top: 70px ;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-family: 'Roboto', sans-serif;
+}
+.box{
+   
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.desc{
+    margin-bottom: 30px;
+}
+.h1-section{
+    text-align: center;
+    font-weight:bolder;
+    font-size: 3rem;
+    margin-bottom: 290px;
+}
+.p-section{
+    text-align: center;
+    font-size:1.6rem ;
+}
+.p-section1{
+    line-height: 4em;
+    text-align: center;
+    font-size:1.8rem ;
+    font-weight: bolder ;
+}
+.para{
+margin-top: -250px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    font-size: 1.5rem;
+  
+    /* font-weight: bold; */
+    padding: 0px 20px;
+    /* margin-left: 26px; */
+    /* margin-top: 50px; */
+    border-radius: 10px;
+    /* border: none; */
+    cursor: pointer;
+  
+    transition: 0.1s;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 3px 1px grey;
+}
+.btn2{
+    font-size: 1.5rem;
+  
+    /* font-weight: bold; */
+    padding: 0px 20px;
+    /* margin-left: 26px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    /* border: none; */
+    cursor: pointer;
+  
+    transition: 0.1s;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 3px 1px grey;
+}
