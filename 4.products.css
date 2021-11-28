@@ -8,8 +8,8 @@ body{
 
 /* HEADER */
 header{
-    position: sticky;
-    top: 0px;
+    /* position: sticky; */
+    /* top: 0px; */
 }
 .container-navbar{
     width: 100%;
