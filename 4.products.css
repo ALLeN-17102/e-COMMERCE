@@ -112,3 +112,88 @@ img{
     margin-left: 10px;
     
 }
+
+/* footer */
+.back{
+    width: 100vw;
+    height: 60px;
+    background-color: #ffebd4;
+    text-align: center;
+    line-height: 60px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact{
+    width:100vw;
+    height:400px;
+    background-color: #B48855;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.assist{
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 40%;
+}
+
+.h2-contact{
+    /* text-align: center; */
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+}
+.para1{
+    margin-top: 40px;
+}
+.p-contact{
+    margin-top: 15px;
+}
+#customer{
+    color: white;
+    font-weight: bold;
+
+}
+#other{
+    color: white;
+    font-weight: bold;
+
+}
+i{
+    font-size: 40px;
+}
+.details{
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+}
+
+/* SOCIAL  */
+
+.social{
+    /* border: 2px solid green; */
+    height: 350px;
+    width: 40%;
+}
+
+
+.h2-social{
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+}
+.para2 a{
+    text-decoration: none;
+    color: black;
+}
+.para2 a:hover{
+    border-bottom:2px solid black;
+}
+.para2{
+    margin-top: 40px;
+}
+.p-social{
+    margin-top: 15px;
+}
