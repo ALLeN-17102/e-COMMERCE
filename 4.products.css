@@ -8,11 +8,11 @@ body{
 
 /* HEADER */
 header{
-    position: sticky;
-    top: 0px;
+    /* position: sticky; */
+    /* top: 0px; */
 }
 .container-navbar{
-    width: 100%;
+    width: 100vw;
     background-color: #B48855;
     display: flex;
     justify-content: space-between;
@@ -71,6 +71,7 @@ header{
     margin-top: 40px;
 }
 .container{
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 2rem;
@@ -83,7 +84,7 @@ header{
 display: flex;
 flex-direction: column;
 transition-property: all ;
-transition-duration: 0.5s;
+transition-duration: 0.1s;
 
 /* align-items: center; */
 }
@@ -113,7 +114,12 @@ img{
     
 }
 
+
 /* footer */
+footer{
+    margin-top: 380px;
+}
+
 .back{
     width: 100vw;
     height: 60px;
