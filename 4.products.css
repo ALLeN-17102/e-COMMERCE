@@ -12,7 +12,7 @@ header{
     /* top: 0px; */
 }
 .container-navbar{
-    width: 100%;
+    width: 100vw;
     background-color: #B48855;
     display: flex;
     justify-content: space-between;
@@ -71,6 +71,7 @@ header{
     margin-top: 40px;
 }
 .container{
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 2rem;
@@ -112,3 +113,5 @@ img{
     margin-left: 10px;
     
 }
+
+
