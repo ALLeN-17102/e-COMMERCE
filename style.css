@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    height: 1000px;
+} */
+/* header */
+header{
+    position: sticky;
+    top: 0px;
+}
+.container{
+    width: 100vw;
+    background-color: #B48855;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.logo{
+    margin-left: 20px;
+    height: 70px;
+    width: 20%; 
+    /* background-color: red; */
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.navi{
+    height: 70px;
+    /* width: 100vw; */
+ } 
+.navbar ul{
+    display: flex;
+      
+}
+.navbar li{
+    list-style-type: none;
+    margin-right: 25px;
+  
+
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    padding: 10px;
+    font-size:1.5rem ;
+}
+.navbar li a:hover{
+    /* text-decoration:underline ; */
+    border-bottom: 1.7px solid rgb(231, 228, 228);
+}
+
+/* SECTION */
+
+/* POTTERY  */
+.section{
+    height: 88vh;
+    width: 99.7vw;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.banner{
+    /* border:2px solid red; */
+  height: 550px;
+  width:1200px;
+    background: url('/img/potteryBanner1.jpg');
+    background-size: 1200px 550px;
+     background-repeat: no-repeat;
+     background-size:cover ; 
+            background-position:center center;
+            border-radius: 12px;
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+}
+
+.h1-section{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align:center ;
+    font-size: 7rem;
+    margin-top: 115px;
+    text-shadow: 3px 3px 1px grey;
+}
+.p-section{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: black;
+    margin-top:10px ;
+    text-shadow: 3px 3px 1px grey;
+}
+.btn{
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    padding: 3px 40px;
+    margin-left: 470px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: #000000;
+    color: white;
+    /* box-shadow: 0px 3px 1px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+/* WOOLLEN  */
+
+.banner1{
+    /* border:2px solid red; */
+  height: 550px;
+  width:1200px;
+    background: url('/img/woolBanner.jpg');
+    background-size: 1200px 550px;
+     background-repeat: no-repeat;
+     background-size:cover ; 
+            background-position:center center;
+            border-radius: 20px;
+            opacity: 1;
+            /* z-index: -1; */
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+}
+
+.h1-section1{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align:center ;
+    font-size: 6rem;
+    margin-top: 115px;
+    text-shadow: 3px 3px 1px grey;
+}
+.p-section1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: black;
+    margin-top:10px ;
+    text-shadow: 3px 3px 1px grey;
+    line-height: 5rem;
+}
+
+
+/* PAINTING  */
+
+
+.banner2{
+    /* border:2px solid red; */
+  height: 550px;
+  width:1200px;
+    background: url('/img/paintBanner2.jpg');
+    background-size: 1200px 550px;
+     background-repeat: no-repeat;
+     background-size:cover ; 
+            background-position:center center;
+            border-radius: 20px;
+        /* background-position-x:0px ; */
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+}
+
+.h1-section2{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align:center ;
+    font-size: 7rem;
+    margin-top: 115px;
+    text-shadow: 3px 3px 1px grey;
+}
+.p-section2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: black;
+    margin-top:10px ;
+    text-shadow: 3px 3px 1px grey;
+}
+
+/* FOOTER  */
+footer{
+    margin-top: 100px;
+}
+/* BACK TO TOP  */
+.back{
+    width: 100vw;
+    height: 60px;
+    background-color: #ffebd4;
+    text-align: center;
+    line-height: 60px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* video-banner CSS */
+/* from line 63 to 77 */
+.video-section{
+    height: 88vh;
+    /* width: 99.7vw; */
+    /* border:2px solid red; */
+    margin-top: 10px;  
+    display: flex; 
+    justify-content:space-evenly;
+    align-items: center;
+
+    
+}
+.box1_video{
+    border: 1px solid black;
+    width: 40%;
+    height: 500px;
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    box-shadow: 3px 3px 1px grey;
+}
+.box2-video{
+    /* border: 2px solid black; */
+    width: 43%;
+    height: 500px;
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.h1-section{
+    text-align: center;
+    font-weight: bolder; 
+   
+}
+.h1-box2-video{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+}
+.p-box2-video{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.btn-video{
+    font-size: 1.5rem;
+  
+    /* font-weight: bold; */
+    padding: 5px 20px;
+    /* margin-left: 26px; */
+    margin-top: 50px;
+    border-radius: 10px;
+    /* border: none; */
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.btn-video:hover{
+    background-color: black;
+    color: white;
+    /* box-shadow: 0px 3px 1px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* most viewed product css */
+/* from line 80 to 102 */
+/* HEADER */
+
+.h1-mostviewed{
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow:1px 1px 1px grey;
+}
+
+/* SECTION */
+.container-mostviewed{
+    height: 87vh;
+    width: 98vw;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: flex; 
+    justify-content:space-evenly;
+    /* align-items: center; */
+
+}
+.box-mostviewed{
+    /* border:2px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.box1-mostviewed{
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 3px 3px 1px grey;
+margin-top:10px
+}
+.box2-mostviewed{
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 3px 3px 1px grey;
+    margin-top:10px
+}
+.h1_container-mostviewed{
+    text-align: center;
+    margin-top: 20px ;
+    text-shadow: 1px 1px 2px grey;
+    /* font-weight: bolder; */
+    
+}
+.p-container-mostviewed{
+    text-align: center;
+    margin-top: 30px ;
+    /* font-weight: bold; */
+}
+.btn-mostviewed{
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    padding: 5px 20px;
+    /* margin-left: 26px; */
+    margin-top: 50px;
+    border-radius: 10px;
+    /* border: none; */
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-mostviewed:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* FOOTER */
+/* CONTACT  */
+
+.contact{
+    width:100vw;
+    height:400px;
+    background-color: #B48855;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.assist{
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 40%;
+}
+
+.h2-contact{
+    /* text-align: center; */
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+}
+.para1{
+    margin-top: 40px;
+}
+.p-contact{
+    margin-top: 15px;
+}
+#customer{
+    color: white;
+    font-weight: bold;
+
+}
+#other{
+    color: white;
+    font-weight: bold;
+
+}
+i{
+    font-size: 40px;
+}
+.details{
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+}
+
+/* SOCIAL  */
+
+.social{
+    /* border: 2px solid green; */
+    height: 350px;
+    width: 40%;
+}
+.h2-social{
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+}
+.para2 a{
+    text-decoration: none;
+    color: black;
+}
+.para2 a:hover{
+    border-bottom:2px solid black;
+}
+.para2{
+    margin-top: 40px;
+}
+.p-social{
+    margin-top: 15px;
+}
