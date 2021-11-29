@@ -116,6 +116,10 @@ img{
 
 
 /* footer */
+footer{
+    margin-top: 380px;
+}
+
 .back{
     width: 100vw;
     height: 60px;

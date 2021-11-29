@@ -199,9 +199,6 @@ header{
 }
 
 /* FOOTER  */
-footer{
-    margin-top: 100px;
-}
 
 /* BACK TO TOP  */
 .back{
@@ -368,6 +365,9 @@ margin-top:10px
 }
 /* FOOTER */
 /* CONTACT  */
+footer{
+    margin-top: 100px;
+}
 
 .contact{
     width:100vw;
