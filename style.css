@@ -200,20 +200,6 @@ header{
 
 /* FOOTER  */
 
-/* BACK TO TOP  */
-.back{
-    width: 100vw;
-    height: 60px;
-    background-color: #ffebd4;
-    text-align: center;
-    line-height: 60px;
-}
-.back a{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-}
 
 /* video-banner CSS */
 /* from line 63 to 77 */
@@ -364,6 +350,21 @@ margin-top:10px
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* FOOTER */
+/* BACK TO TOP  */
+.back{ 
+    width: 100vw;
+    height: 60px;
+    background-color: #ffebd4;
+    text-align: center;
+    line-height: 60px;
+} 
+.back a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
 /* CONTACT  */
 footer{
     margin-top: 100px;
