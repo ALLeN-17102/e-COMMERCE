@@ -237,6 +237,10 @@ header{
     align-items: center;
     box-shadow: 3px 3px 1px grey;
 }
+video{
+    height: 500px;
+    width: 100%;
+}
 .box2-video{
     /* border: 2px solid black; */
     width: 43%;
@@ -316,10 +320,10 @@ header{
     border: 1px solid black;
     width: 350px;
     height: 350px;
-    display: flex; 
+    /* display: flex; 
     flex-direction: column;
     justify-content:center;
-    align-items: center;
+    align-items: center; */
     box-shadow: 3px 3px 1px grey;
 margin-top:10px
 }
@@ -327,12 +331,16 @@ margin-top:10px
     border: 1px solid black;
     width: 350px;
     height: 350px;
-    display: flex; 
+    /* display: flex; 
     flex-direction: column;
     justify-content:center;
-    align-items: center;
+    align-items: center; */
     box-shadow: 3px 3px 1px grey;
     margin-top:10px
+}
+img{
+    width: 350px;
+    height: 350px;
 }
 .h1_container-mostviewed{
     text-align: center;
