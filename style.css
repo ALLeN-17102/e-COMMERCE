@@ -316,6 +316,7 @@ video{
     border: 1px solid black;
     width: 350px;
     height: 350px;
+    box-shadow: 3px 3px 1px grey;
 }
 img{
     width: 350px;
