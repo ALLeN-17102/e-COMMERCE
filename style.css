@@ -223,10 +223,7 @@ header{
     align-items: center;
     box-shadow: 3px 3px 1px grey;
 }
-video{
-    height: 500px;
-    width: 100%;
-}
+
 .box2-video{
     /* border: 2px solid black; */
     width: 43%;
@@ -306,10 +303,7 @@ video{
     border: 1px solid black;
     width: 350px;
     height: 350px;
-    /* display: flex; 
-    flex-direction: column;
-    justify-content:center;
-    align-items: center; */
+
     box-shadow: 3px 3px 1px grey;
 margin-top:10px
 }
@@ -317,17 +311,7 @@ margin-top:10px
     border: 1px solid black;
     width: 350px;
     height: 350px;
-    /* display: flex; 
-    flex-direction: column;
-    justify-content:center;
-    align-items: center; */
-    box-shadow: 3px 3px 1px grey;
-    margin-top:10px
-}
-img{
-    width: 350px;
-    height: 350px;
-}
+
 .h1_container-mostviewed{
     text-align: center;
     margin-top: 20px ;
@@ -358,26 +342,7 @@ img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* FOOTER */
-/* BACK TO TOP  */
-.back{ 
-    width: 100vw;
-    height: 60px;
-    background-color: #ffebd4;
-    text-align: center;
-    line-height: 60px;
-} 
-.back a{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-} 
 
-/* CONTACT  */
-footer{
-    margin-top: 100px;
-    font-family: 'Comfortaa', cursive;
-}
 
 .contact{
     width:100vw;
