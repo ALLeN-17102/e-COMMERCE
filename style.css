@@ -198,7 +198,7 @@ header{
     text-shadow: 3px 3px 1px grey;
 }
 
-/* FOOTER  */
+
 
 
 /* video-banner CSS */
@@ -233,6 +233,10 @@ header{
     justify-content:center;
     align-items: center;
 }
+video{
+    width: 100%;
+    height:500px;
+}
 .h1-section{
     text-align: center;
     font-weight: bolder; 
@@ -245,7 +249,7 @@ header{
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 1px grey;
 }
-.p-box2-video{
+.p-box2{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -278,6 +282,7 @@ header{
     text-align: center;
     font-size: 2.5rem;
     text-shadow:1px 1px 1px grey;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* SECTION */
@@ -305,16 +310,23 @@ header{
     height: 350px;
 
     box-shadow: 3px 3px 1px grey;
-margin-top:10px
+/* margin-top:10px */
 }
 .box2-mostviewed{
     border: 1px solid black;
     width: 350px;
     height: 350px;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
 
 .h1_container-mostviewed{
     text-align: center;
     margin-top: 20px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     text-shadow: 1px 1px 2px grey;
     /* font-weight: bolder; */
     
@@ -322,7 +334,8 @@ margin-top:10px
 .p-container-mostviewed{
     text-align: center;
     margin-top: 30px ;
-    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .btn-mostviewed{
     font-size: 1.5rem;
@@ -343,6 +356,25 @@ margin-top:10px
 }
 /* FOOTER */
 
+
+footer{
+    margin-top: 100px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.back{
+    width: 100vw;
+    height: 60px;
+    background-color: #ffebd4;
+    text-align: center;
+    line-height: 60px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .contact{
     width:100vw;
@@ -394,6 +426,8 @@ i{
     height: 350px;
     width: 40%;
 }
+
+
 .h2-social{
     color: white;
     text-shadow: 1px 1px 1px grey;
