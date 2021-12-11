@@ -199,23 +199,7 @@ header{
 }
 
 /* FOOTER  */
-footer{
-    margin-top: 100px;
-}
-/* BACK TO TOP  */
-.back{
-    width: 100vw;
-    height: 60px;
-    background-color: #ffebd4;
-    text-align: center;
-    line-height: 60px;
-}
-.back a{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-}
+
 
 /* video-banner CSS */
 /* from line 63 to 77 */
@@ -239,6 +223,7 @@ footer{
     align-items: center;
     box-shadow: 3px 3px 1px grey;
 }
+
 .box2-video{
     /* border: 2px solid black; */
     width: 43%;
@@ -318,10 +303,7 @@ footer{
     border: 1px solid black;
     width: 350px;
     height: 350px;
-    display: flex; 
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
+
     box-shadow: 3px 3px 1px grey;
 margin-top:10px
 }
@@ -329,13 +311,7 @@ margin-top:10px
     border: 1px solid black;
     width: 350px;
     height: 350px;
-    display: flex; 
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    box-shadow: 3px 3px 1px grey;
-    margin-top:10px
-}
+
 .h1_container-mostviewed{
     text-align: center;
     margin-top: 20px ;
@@ -366,7 +342,7 @@ margin-top:10px
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* FOOTER */
-/* CONTACT  */
+
 
 .contact{
     width:100vw;
