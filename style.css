@@ -57,6 +57,9 @@ header{
     /* text-decoration:underline ; */
     border-bottom: 1.7px solid rgb(231, 228, 228);
 }
+.fa-shopping-cart{
+    font-size: 23px;
+}
 
 /* SECTION */
 
@@ -398,6 +401,10 @@ footer{
 }
 .para1{
     margin-top: 40px;
+}
+.para1 a{
+    text-decoration: none;
+    color:black
 }
 .p-contact{
     margin-top: 15px;

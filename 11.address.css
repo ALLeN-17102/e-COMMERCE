@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+/* header{
+    position: sticky;
+    top: 0px;
+} */
+.container{
+    width: 100vw;
+    background-color: #B48855;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.logo{
+    margin-left: 20px;
+    height: 70px;
+    width: 20%; 
+    /* background-color: red; */
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.navi{
+    height: 70px;
+    /* width: 100vw; */
+ } 
+.navbar ul{
+    display: flex;
+      
+}
+.navbar li{
+    list-style-type: none;
+    margin-right: 25px;
+  
+
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    padding: 10px;
+    font-size:1.5rem ;
+}
+.navbar li a:hover{
+    /* text-decoration:underline ; */
+    border-bottom: 1.7px solid rgb(231, 228, 228);
+}
+
+
+/* SECTION */
+.container1{
+    width: 90%;
+    margin: auto;
+    height: 88vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    width: 100%;
+    height: 50vh;
+    /* border: 2px solid green; */
+
+
+}
+.box2{
+    width: 100%;
+    height: 25vh;
+    /* border: 2px solid blue; */
+}
+.box3{
+    width: 100%;
+    height: 25vh;
+    /* border: 2px solid yellow; */
+}
+
+.box1-h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    margin-top: 20px;
+}
+input{
+    border-radius: 30px;
+    /* margin-top: 40px; */
+    padding: 9px;
+    width: 350px;
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(235, 235, 235);
+    margin: 5px;
+}
+::placeholder{
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+
+.box3-btn{
+    /* margin-left: 38px; */
+    
+    margin-top: 20px;
+    width: 15%;
+    border-radius: 5px;
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    background-color: #B48855;
+    color:white;
+    font-weight: bolder;
+}
+.box3-btn:hover{
+    background-color: black;
+    color: white;
+    /* box-shadow: 0px 3px 1px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}

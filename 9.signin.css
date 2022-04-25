@@ -144,3 +144,9 @@ input{
     /* box-shadow: 0px 3px 1px grey; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
+
+::placeholder{
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
